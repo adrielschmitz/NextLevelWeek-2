@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
-
-// install react-router-dom
+import React from 'react'
+import PageHeader from '../../components/PageHeader'
 
 const TeacherForm = () => {
   return (
-    <>
-      <h1> Sup Bitch? form </h1>
-    </>
+    <div id="page-teacher-form" className="container">
+      <PageHeader title="Que incrível que você quer dar aulas." />
+    </div>
   );
 };
 
